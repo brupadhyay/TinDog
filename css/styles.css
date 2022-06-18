@@ -34,11 +34,10 @@ p{
 }
 
 /* Title Section */
-#title {
-    text-align: left;
-}
+
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 .title-img {
     width: 21%;
@@ -122,6 +121,7 @@ p{
     font-size: 3rem;
     line-height: 1.5;
 }
+
 .pricing-column {
     padding: 3% 2%;
 }
@@ -142,7 +142,7 @@ p{
 
 @media (max-width: 1000px){
 
-    #title{
+    #title .container-fluid {
         text-align: center;
     }
 
